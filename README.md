@@ -172,4 +172,92 @@ La pantalla CartScreen muestra los elementos agregados al carrito de compras. Pe
 
 Descripción
 La pantalla CartScreen muestra los elementos agregados al carrito de compras. Permite a los usuarios eliminar elementos individuales del carrito, vaciar completamente el carrito y confirmar la compra. El total de la compra se muestra en la parte inferior de la pantalla.
+
+```
+
+## Screen Categories
+
+```
+La pantalla Categories muestra una lista de categorías de libros disponibles. Utiliza la consulta useGetGendersQuery para obtener la lista de géneros desde el servidor.
+
+Además muestra una lista de categorías de libros disponibles. Muestra un indicador de carga mientras se cargan los datos y maneja errores mostrando un componente CustomError personalizado si se produce un error al cargar los datos.
+
+```
+
+## Screen ImageSelector
+
+```
+El componente ImageSelector permite al usuario seleccionar o tomar una foto y confirmarla como su imagen de perfil. Utiliza la biblioteca expo-image-picker para interactuar con la cámara del dispositivo.
+
+ Muestra una vista previa de la imagen seleccionada y proporciona botones para tomar otra foto o confirmar la imagen seleccionada. Después de confirmar la imagen, la guarda en el estado global y la envía al servidor para su almacenamiento.
+
+```
+
+## Screen Login
+
+```
+Descripción
+El componente Login permite a los usuarios iniciar sesión en la aplicación ingresando su correo electrónico y contraseña. Muestra dos campos de entrada (Input) para el correo electrónico y la contraseña. Cuando el usuario envía el formulario de inicio de sesión, se dispara la mutación useLogInMutation para iniciar sesión en la aplicación. Si la autenticación es exitosa, se muestra un mensaje de éxito y se redirige al usuario a la página de inicio (Home). Si hay algún error durante el inicio de sesión, se muestra un mensaje de error.
+```
+
+## Screen Orders
+
+```
+Descripción
+El componente Orders muestra las órdenes de compra realizadas por el usuario. Utiliza la consulta useGetOrdersQuery para obtener las órdenes del usuario actual. Muestra cada orden como un elemento de la lista usando el componente OrderItem. Al hacer clic en una orden, se abre un modal que muestra los detalles de esa orden, como el artículo comprado, el autor, el género y el total de la compra.
+
+Propiedades
+Ninguna
+Estado
+orderData: Almacena los datos de las órdenes obtenidas de la consulta.
+orderIdSelected: Almacena el ID de la orden seleccionada para ver los detalles.
+orderSelected: Almacena los detalles de la orden seleccionada.
+modalVisible: Controla la visibilidad del modal para ver los detalles de la orden.
+Métodos
+Ninguno
+Estilos
+El componente Orders utiliza estilos para dar formato a los elementos de la lista de órdenes y al modal que muestra los detalles de la orden.
+
+```
+
+## Screen profile
+
+```
+- Descripción
+El componente ProfileScreen muestra la información del perfil del usuario. Muestra la imagen de perfil del usuario, el nombre, el rol, el nivel, la dirección y la ciudad. También muestra la última ubicación guardada del usuario si está disponible. Permite al usuario seleccionar una imagen de perfil y editar su ubicación.
+
+- Propiedades
+navigation: Objeto de navegación para navegar entre pantallas.
+
+-Estado
+Ninguno
+
+-Métodos
+Ninguno
+
+-Estilos
+El componente ProfileScreen utiliza estilos para dar formato a los elementos de la pantalla de perfil, incluyendo la imagen de perfil, el contenedor de datos del usuario y la información de ubicación.
+
+```
+
+## Screen Signup
+
+```
+Descripción
+El componente Signup es una pantalla de registro que permite a los usuarios crear una cuenta ingresando su correo electrónico y contraseña. También muestra mensajes de error si la información ingresada no cumple con los criterios de validación.
+
+Propiedades
+-navigation: Objeto de navegación para navegar entre pantallas.
+Estado
+-email: Estado para almacenar el correo electrónico ingresado por el usuario.
+-password: Estado para almacenar la contraseña ingresada por el usuario.
+-confirmPassword: Estado para almacenar la confirmación de contraseña ingresada por el usuario.
+-emailError: Estado para almacenar mensajes de error relacionados con el correo electrónico.
+-passwordError: Estado para almacenar mensajes de error relacionados con la contraseña.
+confirmPasswordError: Estado para almacenar mensajes de error relacionados con la confirmación de contraseña.
+Métodos
+-onSubmit: Método que se ejecuta cuando el usuario presiona el botón de registro. Valida la información ingresada por el usuario y realiza la acción de registro si la información es válida.
+
+Estilos
+El componente Signup utiliza estilos para dar formato a los elementos de la pantalla de registro, incluyendo los campos de entrada, botones y enlaces de navegación.
 ```
