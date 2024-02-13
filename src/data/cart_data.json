@@ -1,0 +1,30 @@
+[
+    {
+        "id": 2,
+        "title": "El aleph",
+        "gender": "Cuento",
+        "author": "Jorge Luis Borges",
+        "editorial": "Losada",
+        "year": 1949,
+        "thumbnail": "https://images.cdn1.buscalibre.com/fit-in/360x360/78/8f/788f1c87e9e3cbfd648353112dcbbbbf.jpg",
+        "raiting": 3,
+        "description": "Es una colección de cuentos del escritor argentino Jorge Luis Borges. El relato principal, cuenta la historia de un hombre que descubre un punto en su sótano donde puede ver todos los puntos del universo al mismo tiempo. A través de este relato y otros, Borges explora temas como la percepción, la realidad y la naturaleza del tiempo y el espacio.",
+        "price": 35000,
+        "stock": 25,
+        "quantity": 2
+    },
+    {
+        "id": 6,
+        "title": "1984",
+        "gender": "Ciencia ficción",
+        "author": "George Orwell",
+        "editorial": "Debolsillo",
+        "year": 1949,
+        "thumbnail": "https://images.cdn1.buscalibre.com/fit-in/360x360/10/42/10426f9e9ae4f7cd9eb5d33cef5aa143.jpg",
+        "raiting": 4,
+        "description": "Es una novela distópica del autor británico George Orwell. Ambientada en un futuro totalitario, la historia sigue a Winston Smith, un hombre que trabaja en el Ministerio de la Verdad y comienza a cuestionar el sistema opresivo en el que vive. A medida que Winston se involucra en actividades ilegales y se enamora de una mujer llamada Julia, se enfrenta a la vigilancia constante del gobierno y a la figura ominosa del líder del Partido, Big Brother.",
+        "price": 37000,
+        "stock": 25,
+        "quantity": 1
+    }
+]

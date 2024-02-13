@@ -1,0 +1,308 @@
+[
+    {
+        "id": 1,
+        "title": "Cien años de soledad",
+        "gender": "Novela",
+        "author": "Gabriel García Márquez",
+        "editorial": "Sudamericana",
+        "year": 1967,
+        "thumbnail": "https://covers.alibrate.com/b/59872e8acba2bce50c1a6d96/b0bf30dd-8585-4a46-9229-c72a94282fbe/share",
+        "images":[  
+            "https://carlosbattaglini.es/wp-content/uploads/2017/02/librocienan%CC%83osdesoledad-1100x600.jpg",
+            "https://m.media-amazon.com/images/I/A1lNJP8sC6L._SL1500_.jpg"
+        ],
+        "raiting": 5,
+        "description": "Es una épica novela que sigue la historia de la familia Buendía en el pueblo ficticio de Macondo. La obra maestra de Gabriel García Márquez explora temas como la soledad, la mortalidad y el amor a través de personajes fascinantes y una trama que combina realidad y fantasía.",
+        "price": 65000,
+        "stock": 4
+    },
+    {
+        "id": 2,
+        "title": "El aleph",
+        "gender": "Cuento",
+        "author": "Jorge Luis Borges",
+        "editorial": "Losada",
+        "year": 1949,
+        "thumbnail": "https://images.cdn1.buscalibre.com/fit-in/360x360/78/8f/788f1c87e9e3cbfd648353112dcbbbbf.jpg",
+        "images":[  
+            "https://carlosbattaglini.es/wp-content/uploads/2017/02/librocienan%CC%83osdesoledad-1100x600.jpg",
+            "https://m.media-amazon.com/images/I/A1lNJP8sC6L._SL1500_.jpg"
+        ],
+        "raiting": 3,
+        "description": "Es una colección de cuentos del escritor argentino Jorge Luis Borges. El relato principal, cuenta la historia de un hombre que descubre un punto en su sótano donde puede ver todos los puntos del universo al mismo tiempo. A través de este relato y otros, Borges explora temas como la percepción, la realidad y la naturaleza del tiempo y el espacio.",
+        "price": 35000,
+        "stock": 25
+    },
+    {
+        "id": 3,
+        "title": "1984",
+        "gender": "Ciencia ficción",
+        "author": "George Orwell",
+        "editorial": "Debolsillo",
+        "year": 1949,
+        "thumbnail": "https://images.cdn1.buscalibre.com/fit-in/360x360/10/42/10426f9e9ae4f7cd9eb5d33cef5aa143.jpg",
+        "images":[  
+            "https://carlosbattaglini.es/wp-content/uploads/2017/02/librocienan%CC%83osdesoledad-1100x600.jpg",
+            "https://m.media-amazon.com/images/I/A1lNJP8sC6L._SL1500_.jpg"
+        ],
+        "raiting": 4,
+        "description": "Es una novela distópica del author británico George Orwell. Ambientada en un futuro totalitario, la historia sigue a Winston Smith, un hombre que trabaja en el Ministerio de la Verdad y comienza a cuestionar el sistema opresivo en el que vive. A medida que Winston se involucra en actividades ilegales y se enamora de una mujer llamada Julia, se enfrenta a la vigilancia constante del gobierno y a la figura ominosa del líder del Partido, Big Brother." ,
+        "price": 37000,
+        "stock": 25
+    },
+    {
+        "id": 4,
+        "title": "La metamorfosis",
+        "gender": "Cuento",
+        "author": "Franz Kafka",
+        "editorial": "Alianza Editorial",
+        "year": 1915,
+        "thumbnail": "https://www.edebe.com/publicaciones-generales/img_server.aspx?img=128477(1).jpg&tipo=F",
+        "images":[  
+            "https://carlosbattaglini.es/wp-content/uploads/2017/02/librocienan%CC%83osdesoledad-1100x600.jpg",
+            "https://m.media-amazon.com/images/I/A1lNJP8sC6L._SL1500_.jpg"
+        ],
+        "raiting": 2,
+        "description": "Es una novela corta del escritor checo Franz Kafka. La historia sigue a Gregorio Samsa, un vendedor que se despierta una mañana para descubrir que se ha transformado en un insecto gigante. A medida que su familia trata de lidiar con su nueva forma y la incapacidad de Gregorio para comunicarse, se revelan temas como el aislamiento, la alienación y la naturaleza humana.",
+        "price": 1800,
+        "stock": 25
+    },
+    {
+        "id": 5,
+        "title": "La iliada",
+        "gender": "Epopeya",
+        "author": "Homero",
+        "editorial": "Penguin Clásicos",
+        "year": -800,
+        "thumbnail": "https://www.elejandria.com/covers/La_Iliada-Homero-lg.png",
+        "images":[  
+            "https://carlosbattaglini.es/wp-content/uploads/2017/02/librocienan%CC%83osdesoledad-1100x600.jpg",
+            "https://m.media-amazon.com/images/I/A1lNJP8sC6L._SL1500_.jpg"
+        ],
+        "raiting": 3,
+        "description": "Es un género literario que se caracteriza por contar los hechos y hazañas de héroes o figuras históricas. En lugar de centrarse en la psicología de los personajes, las epopeyas suelen tener un enfoque más épico y grandioso, y presentan batallas y aventuras a gran escala. Ejemplos famosos de epopeyas incluyen la Ilíada y la Odisea de Homero, así como la Eneida de Virgilio.",
+        "price": 43000,
+        "stock": 25
+    },
+    {
+        "id": 6,
+        "title": "El gran Gatsby",
+        "gender": "Novela",
+        "author": "F. Scott Fitzgerald",
+        "editorial": "Debolsillo",
+        "year": 1925,
+        "thumbnail": "https://www.nuevetrescuartos.com/imagenes/9789589/978958901664.GIF",
+        "images":[  
+            "https://carlosbattaglini.es/wp-content/uploads/2017/02/librocienan%CC%83osdesoledad-1100x600.jpg",
+            "https://m.media-amazon.com/images/I/A1lNJP8sC6L._SL1500_.jpg"
+        ],
+        "raiting": 2,
+        "description": "Es una novela del author estadounidense F. Scott Fitzgerald. Ambientada en la década de 1920, la historia sigue al misterioso millonario Jay Gatsby y su obsesión por la socialité Daisy Buchanan. A través de los ojos del narrador, Nick Carraway, la novela explora temas como el amor, la riqueza, la decadencia de la sociedad estadounidense y la corrupción del Sueño Americano.",
+        "price": 22000,
+        "stock": 25
+    },
+    {
+        "id": 7,
+        "title": "Orgullo y prejuicio",
+        "gender": "Novela romántica",
+        "author": "Jane Austen",
+        "editorial": "Alianza Editorial",
+        "year": 1813,
+        "thumbnail": "https://images.cdn2.buscalibre.com/fit-in/360x360/69/d4/69d4e28b6661d6b7ed6a53c1ba34eb33.jpg",
+        "images":[  
+            "https://carlosbattaglini.es/wp-content/uploads/2017/02/librocienan%CC%83osdesoledad-1100x600.jpg",
+            "https://m.media-amazon.com/images/I/A1lNJP8sC6L._SL1500_.jpg"
+        ],
+        "raiting": 3,
+        "description": "Es una novela de la autora inglesa Jane Austen. La historia sigue a la familia Bennet, en particular a la hija mayor, Elizabeth, mientras lidia con las complejidades de la vida amorosa y social en la Inglaterra rural del siglo XIX. La novela se centra en temas como la clase social, la educación, el matrimonio y el papel de la mujer en la sociedad. A través de personajes bien delineados y una prosa elegante, Austen crea una obra que ha sido aclamada por su observación aguda y su sátira social.",
+        "price": 27000,
+        "stock": 25
+    },
+    {
+        "id": 8,
+        "title": "La naranja mecánica",
+        "gender": "Ciencia ficción",
+        "author": "Anthony Burgess",
+        "editorial": "Minotauro",
+        "year": 1962,
+        "thumbnail": "https://trabalibros.com/rs/266/4886d523-1977-4fa1-ab24-df1b609c897c/64d/filename/la-naranja-mecanica-anthony-burgess-trabalibros.jpg",
+        "images":[  
+            "https://carlosbattaglini.es/wp-content/uploads/2017/02/librocienan%CC%83osdesoledad-1100x600.jpg",
+            "https://m.media-amazon.com/images/I/A1lNJP8sC6L._SL1500_.jpg"
+        ],
+        "raiting": 2,
+        "description": "Es una novela del author británico Anthony Burgess. La historia se centra en Alex, un joven delincuente y líder de una pandilla callejera, que es arrestado y sometido a un tratamiento experimental de reeducación para eliminar su violencia y comportamiento antisocial. La novela aborda temas como la libertad individual, la violencia, el poder y la manipulación del estado, y se centra en la naturaleza humana y la posibilidad de cambio. La obra es conocida por su lenguaje inventado, el Nadsat, una mezcla de argot juvenil y ruso, y por su violencia explícita.",
+        "price": 19300,
+        "stock": 25
+    },
+    {
+        "id": 9,
+        "title": "Los juegos del hambre",
+        "gender": "Ciencia ficción",
+        "author": "Suzanne Collins",
+        "editorial": "Molino",
+        "year": 2008,
+        "thumbnail": "https://images.cdn3.buscalibre.com/fit-in/360x360/11/12/1112d0a74ef4e62feca66a7b9dfdd67f.jpg",
+        "images":[  
+            "https://carlosbattaglini.es/wp-content/uploads/2017/02/librocienan%CC%83osdesoledad-1100x600.jpg",
+            "https://m.media-amazon.com/images/I/A1lNJP8sC6L._SL1500_.jpg"
+        ],
+        "raiting": 5,
+        "description": "Es un libro del author estadounidense Suzanne Collins. Ambientada en un futuro distópico, la historia sigue a Katniss Everdeen, una joven de un distrito empobrecido que es seleccionada junto con otro tributo para competir en los Juegos del Hambre, un evento anual en el que los niños luchan a muerte en una arena televisada para el entretenimiento de la nación. La novela aborda temas como la opresión, la desigualdad social, la propaganda y la resistencia contra el poder establecido.",
+        "price": 14600,
+        "stock": 25
+    },
+    {
+        "id": 10,
+        "title": "El principito",
+        "gender": "Novela",
+        "author": "Antoine de Saint-Exupéry",
+        "editorial": "Salvat",
+        "year": 1943,
+        "thumbnail": "https://nidodelibros.com/wp-content/uploads/2021/04/9789877514308.jpeg",
+        "images":[  
+            "https://carlosbattaglini.es/wp-content/uploads/2017/02/librocienan%CC%83osdesoledad-1100x600.jpg",
+            "https://m.media-amazon.com/images/I/A1lNJP8sC6L._SL1500_.jpg"
+        ],
+        "raiting": 5,
+        "description": "La historia sigue a un piloto que se estrella en el desierto del Sahara y se encuentra con un niño rubio y astuto, el principito, quien le enseña sobre la amistad, el amor y la importancia de las relaciones humanas. A través de una serie de encuentros y diálogos entre el piloto y el principito, la obra explora temas como la soledad, la pérdida de la inocencia y la búsqueda de sentido en la vida.",
+        "price": 22400,
+        "stock": 25
+    },
+    {
+        "id": 11,
+        "title": "La chica del tren",
+        "gender": "Thriller psicológico",
+        "author": "Paula Hawkins",
+        "editorial": "Planeta",
+        "year": 2015,
+        "thumbnail": "https://images.cdn2.buscalibre.com/fit-in/360x360/a9/dd/a9dd9755bde59005eb4421bb1f061bcc.jpg",
+        "images":[  
+            "https://carlosbattaglini.es/wp-content/uploads/2017/02/librocienan%CC%83osdesoledad-1100x600.jpg",
+            "https://m.media-amazon.com/images/I/A1lNJP8sC6L._SL1500_.jpg"
+        ],
+        "raiting": 3,
+        "description": "La historia sigue a Rachel, una mujer divorciada y alcohólica que viaja en el mismo tren todos los días y observa la vida de una pareja aparentemente feliz desde la ventana del tren. Cuando la mujer de la pareja desaparece misteriosamente, Rachel se involucra en la investigación y se convierte en una pieza clave para descubrir la verdad detrás de su desaparición.",
+        "price": 11200,
+        "stock": 25
+    },
+    {
+        "id": 12,
+        "title": "La ciudad y los perros",
+        "gender": "Novela",
+        "author": "Mario Vargas Llosa",
+        "editorial": "Seix Barral",
+        "year": 1963,
+        "thumbnail": "https://images.cdn2.buscalibre.com/fit-in/360x360/04/97/0497843aaba916128e3617a02b9a7583.jpg",
+        "images":[  
+            "https://carlosbattaglini.es/wp-content/uploads/2017/02/librocienan%CC%83osdesoledad-1100x600.jpg",
+            "https://m.media-amazon.com/images/I/A1lNJP8sC6L._SL1500_.jpg"
+        ],
+        "raiting": 1,
+        "description": "La historia se desarrolla en el Colegio Militar Leoncio Prado, una escuela militar de Lima, donde se forman los futuros oficiales del ejército. La novela sigue las vidas de un grupo de cadetes, entre ellos el Jaguar, el Poeta, el Esclavo y el Negro, quienes luchan por sobrevivir en un ambiente opresivo y violento. La obra aborda temas como la masculinidad tóxica, la corrupción, la violencia y el poder.",
+        "price": 16400,
+        "stock": 25
+    },
+    {
+        "id": 13,
+        "title": "El nombre del viento",
+        "gender": "Fantasía",
+        "author": "Patrick Rothfuss",
+        "editorial": "Debolsillo",
+        "year": 2007,
+        "thumbnail": "https://m.media-amazon.com/images/I/7125ljaY0gL.jpg",
+        "images":[  
+            "https://carlosbattaglini.es/wp-content/uploads/2017/02/librocienan%CC%83osdesoledad-1100x600.jpg",
+            "https://m.media-amazon.com/images/I/A1lNJP8sC6L._SL1500_.jpg"
+        ],
+        "raiting": 3,
+        "description": "La historia sigue a Kvothe, un músico y mago legendario, mientras relata su vida a un cronista en una posada solitaria. La novela se desarrolla en un mundo de fantasía donde la magia es real y los personajes se enfrentan a peligros sobrenaturales. A medida que Kvothe narra sus aventuras, el lector descubre los secretos de su pasado y el camino que lo llevó a su presente solitario.",
+        "price": 17500,
+        "stock": 25
+    },
+    {
+        "id": 14,
+        "title": "La casa de los espíritus",
+        "gender": "Realismo mágico",
+        "author": "Isabel Allende",
+        "editorial": "Plaza & Janés",
+        "year": 1982,
+        "thumbnail": "https://images.cdn3.buscalibre.com/fit-in/360x360/bf/b2/bfb2294d8912bbd5179452432aaceb15.jpg",
+        "images":[  
+            "https://carlosbattaglini.es/wp-content/uploads/2017/02/librocienan%CC%83osdesoledad-1100x600.jpg",
+            "https://m.media-amazon.com/images/I/A1lNJP8sC6L._SL1500_.jpg"
+        ],
+        "raiting": 4,
+        "description": "Es una novela de la autora chilena Isabel Allende. La historia sigue a la familia Trueba, una poderosa familia de terratenientes chilenos a lo largo de varias generaciones. A través de la narración de los miembros de la familia, la novela explora temas como el amor, la muerte, la política y la espiritualidad. La obra está ambientada en un contexto histórico turbulento, que incluye el golpe militar de Chile en 1973 y la lucha de la población indígena por sus derechos.",
+        "price": 47000,
+        "stock": 25
+    },
+    {
+        "id": 15,
+        "title": "El señor de los anillos",
+        "gender": "Fantasía",
+        "author": "J.R.R. Tolkien",
+        "editorial": "Minotauro",
+        "year": 1954,
+        "thumbnail": "https://images.cdn3.buscalibre.com/fit-in/360x360/54/49/5449ba87a3e457a22dd6d0972b5c261e.jpg",
+        "images":[  
+            "https://carlosbattaglini.es/wp-content/uploads/2017/02/librocienan%CC%83osdesoledad-1100x600.jpg",
+            "https://m.media-amazon.com/images/I/A1lNJP8sC6L._SL1500_.jpg"
+        ],
+        "raiting": 5,
+        "description": "La historia se desarrolla en un mundo de fantasía llamado la Tierra Media, donde un hobbit llamado Frodo Bolsón recibe la tarea de destruir un poderoso anillo mágico que puede otorgar el control absoluto sobre toda la Tierra Media. Frodo se une a un grupo de personajes, incluyendo hobbits, enanos, elfos y humanos, en su peligroso viaje hacia el Monte del Destino, donde deben arrojar el anillo al fuego para destruirlo.",
+        "price": 69500,
+        "stock": 25
+    },
+    {
+        "id": 16,
+        "title": "El código Da Vinci",
+        "gender": "Misterio",
+        "author": "Dan Brown",
+        "editorial": "Umbriel",
+        "year": 2003,
+        "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_676829-MCO53044235194_122022-O.jpg",
+        "images":[  
+            "https://carlosbattaglini.es/wp-content/uploads/2017/02/librocienan%CC%83osdesoledad-1100x600.jpg",
+            "https://m.media-amazon.com/images/I/A1lNJP8sC6L._SL1500_.jpg"
+        ],
+        "raiting": 4,
+        "description": "La historia sigue al profesor de simbología Robert Langdon mientras investiga el asesinato de un curador del Louvre en París y se encuentra involucrado en una conspiración que involucra a la Iglesia Católica y a la búsqueda del Santo Grial. La novela está llena de enigmas y misterios que Langdon y su compañera, Sophie Neveu, deben resolver mientras son perseguidos por la policía y los conspiradores.",
+        "price": 32900,
+        "stock": 25
+    },
+    {
+        "id": 17,
+        "title": "La sombra del viento",
+        "gender": "Novela gótica",
+        "author": "Carlos Ruiz Zafón",
+        "editorial": "Planeta",
+        "year": 2001,
+        "thumbnail": "https://images.cdn2.buscalibre.com/fit-in/360x360/30/57/3057e792c1953b16740975d6fa56664f.jpg",
+        "images":[  
+            "https://carlosbattaglini.es/wp-content/uploads/2017/02/librocienan%CC%83osdesoledad-1100x600.jpg",
+            "https://m.media-amazon.com/images/I/A1lNJP8sC6L._SL1500_.jpg"
+        ],
+        "raiting": 3,
+        "description": "La historia sigue a Daniel Sempere, un joven que descubre un libro raro llamado La sombra del viento de un autor desconocido llamado Julián Carax. Daniel comienza una búsqueda para descubrir la verdad sobre la vida de Carax y su conexión con su propia vida. La novela está ambientada en la Barcelona de posguerra y explora temas como el amor, la amistad, la identidad y la pérdida.",
+        "price": 16100,
+        "stock": 25
+    },
+    {
+        "id": 18,
+        "title": "Matar a un ruiseñor",
+        "gender": "Drama",
+        "author": "Harper Lee",
+        "editorial": "Salamandra",
+        "year": 1960,
+        "thumbnail": "https://images.cdn3.buscalibre.com/fit-in/360x360/1b/d7/1bd7b432c94ccdcf816c917d8abe8e83.jpg",
+        "images":[  
+            "https://carlosbattaglini.es/wp-content/uploads/2017/02/librocienan%CC%83osdesoledad-1100x600.jpg",
+            "https://m.media-amazon.com/images/I/A1lNJP8sC6L._SL1500_.jpg"
+        ],
+        "raiting": 5,
+        "description": "Es una novela de la autora estadounidense Harper Lee. La historia está narrada por Scout Finch, una niña de seis años que vive en el sur de Estados Unidos durante la década de 1930, y sigue a su padre, Atticus Finch, un abogado que defiende a un hombre negro acusado de violar a una mujer blanca. La novela aborda temas como el racismo, la discriminación y la injusticia en la sociedad estadounidense de la época.",
+        "price": 90000,
+        "stock": 25
+        }
+]

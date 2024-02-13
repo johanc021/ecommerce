@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "userId": 2,
+        "createdAt": 1679869276580,
+        "items": [
+            {
+                "id": 1,
+                "title": "Cien años de soledad",
+                "gender": "Novela",
+                "author": "Gabriel García Márquez",
+                "editorial": "Sudamericana",
+                "year": 1967,
+                "thumbnail": "https://covers.alibrate.com/b/59872e8acba2bce50c1a6d96/b0bf30dd-8585-4a46-9229-c72a94282fbe/share",
+                "raiting": 5,
+                "description": "Es una épica novela que sigue la historia de la familia Buendía en el pueblo ficticio de Macondo. La obra maestra de Gabriel García Márquez explora temas como la soledad, la mortalidad y el amor a través de personajes fascinantes y una trama que combina realidad y fantasía.",
+                "price": 65000,
+                "stock": 4,
+                "quantity": 2
+            },
+            {
+                "id": 2,
+                "title": "El aleph",
+                "gender": "Cuento",
+                "author": "Jorge Luis Borges",
+                "editorial": "Losada",
+                "year": 1949,
+                "thumbnail": "https://images.cdn1.buscalibre.com/fit-in/360x360/78/8f/788f1c87e9e3cbfd648353112dcbbbbf.jpg",
+                "raiting": 3,
+                "description": "Es una colección de cuentos del escritor argentino Jorge Luis Borges. El relato principal, cuenta la historia de un hombre que descubre un punto en su sótano donde puede ver todos los puntos del universo al mismo tiempo. A través de este relato y otros, Borges explora temas como la percepción, la realidad y la naturaleza del tiempo y el espacio.",
+                "price": 35000,
+                "stock": 25,
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "userId": 2,
+        "createdAt": 1679832276580,
+        "items": [
+            {
+                "id": 3,
+                "title": "1984",
+                "gender": "Ciencia ficción",
+                "author": "George Orwell",
+                "editorial": "Debolsillo",
+                "year": 1949,
+                "thumbnail": "https://images.cdn1.buscalibre.com/fit-in/360x360/10/42/10426f9e9ae4f7cd9eb5d33cef5aa143.jpg",
+                "raiting": 4,
+                "description": "Es una novela distópica del autor británico George Orwell. Ambientada en un futuro totalitario, la historia sigue a Winston Smith, un hombre que trabaja en el Ministerio de la Verdad y comienza a cuestionar el sistema opresivo en el que vive. A medida que Winston se involucra en actividades ilegales y se enamora de una mujer llamada Julia, se enfrenta a la vigilancia constante del gobierno y a la figura ominosa del líder del Partido, Big Brother.",
+                "price": 37000,
+                "stock": 25,
+                "quantity": 1
+            },
+            {
+                "id": 4,
+                "title": "La metamorfosis",
+                "gender": "Cuento",
+                "author": "Franz Kafka",
+                "editorial": "Alianza Editorial",
+                "year": 1915,
+                "thumbnail": "https://www.edebe.com/publicaciones-generales/img_server.aspx?img=128477(1).jpg&tipo=F",
+                "raiting": 2,
+                "description": "Es una novela corta del escritor checo Franz Kafka. La historia sigue a Gregorio Samsa, un vendedor que se despierta una mañana para descubrir que se ha transformado en un insecto gigante. A medida que su familia trata de lidiar con su nueva forma y la incapacidad de Gregorio para comunicarse, se revelan temas como el aislamiento, la alienación y la naturaleza humana.",
+                "price": 1800,
+                "stock": 25,
+                "quantity": 1
+            }
+        ]
+    }
+]
