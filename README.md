@@ -1,5 +1,117 @@
 # Eccommerce Books
 
+## Estructura general del proyecto
+
+```
+EcommerceBooks
+├── .env
+├── .expo
+│   ├── devices.json
+│   └── README.md
+├── .gitignore
+├── App.js
+├── app.json
+├── assets
+│   ├── adaptive-icon.png
+│   ├── favicon.png
+│   ├── fonts
+│   │   ├── Lato-Black.ttf
+│   │   ├── Lato-BlackItalic.ttf
+│   │   ├── Lato-Bold.ttf
+│   │   ├── Lato-BoldItalic.ttf
+│   │   ├── Lato-Italic.ttf
+│   │   ├── Lato-Light.ttf
+│   │   ├── Lato-LightItalic.ttf
+│   │   ├── Lato-Regular.ttf
+│   │   ├── Lato-Thin.ttf
+│   │   └── Lato-ThinItalic.ttf
+│   ├── icon.png
+│   ├── img
+│   │   └── user.png
+│   ├── js
+│   │   └── alerts.js
+│   └── splash.png
+├── babel.config.js
+├── eas.json
+├── package-lock.json
+├── package.json
+├── README.md
+└── src
+    ├── apis
+    │   └── googleCloud.js
+    ├── components
+    │   ├── BookItem.jsx
+    │   ├── Card.jsx
+    │   ├── Carrousel.jsx
+    │   ├── CartItem.jsx
+    │   ├── CustomError.jsx
+    │   ├── GenderBook.jsx
+    │   ├── Header.jsx
+    │   ├── Input.jsx
+    │   ├── LocationSelector.jsx
+    │   ├── MapPreview.jsx
+    │   ├── OrderItem.jsx
+    │   └── Search.jsx
+    ├── data
+    │   ├── books_data.json
+    │   ├── cart_data.json
+    │   ├── categories_data.json
+    │   ├── orders_data.json
+    │   └── user_data.json
+    ├── db
+    │   └── index.js
+    ├── features
+    │   ├── authSlice.js
+    │   ├── cartSlice.js
+    │   └── shopSlice.js
+    ├── global
+    │   └── colors.js
+    ├── navigation
+    │   ├── AuthNavigator.jsx
+    │   ├── CartNavigator.jsx
+    │   ├── MainNavigator.jsx
+    │   ├── OrdersNavigator.jsx
+    │   ├── ProfileNavigator.jsx
+    │   ├── ShopNavigator.jsx
+    │   └── TabNavigator.jsx
+    ├── screens
+    │   ├── BookDetail.jsx
+    │   ├── BooksByCategory.jsx
+    │   ├── Cart.jsx
+    │   ├── Categories.jsx
+    │   ├── ImageSelector.jsx
+    │   ├── Login.jsx
+    │   ├── Orders.jsx
+    │   ├── Profile.jsx
+    │   └── Signup.jsx
+    ├── services
+    │   ├── authServices.js
+    │   └── shopServices.js
+    ├── store
+    │   └── index.js
+    └── validations
+        └── signupSchema.js
+
+```
+
+## carpeta src
+
+```
+Carpeta raiz del proyecto, dentro se encuentran las carpetas siguientes.
+```
+
+## Fuentes usadas
+
+```
+De acuerdo a la estructura en la carpeta assets, se encuentra la carpeta fonts, dentro se encuentra las fuentes de Lato.
+```
+
+## Toastify - alertas
+
+```
+En la ubicacion de assets, se encuentra la carpeta js, dentro se encuentra el archivo alerts.js dentro se encuentran las funciones que al ser llamadas muestra una alerta de acuerdo al contexto.
+```
+
 ## Carpeta Components
 
 - ### Componente BookItem
@@ -143,6 +255,36 @@ onSearchHandlerEvent: Función de devolución de llamada que se ejecuta cuando s
 
 ```
 
+## Carpeta data
+
+```
+Se ubica dentro de src, se encuentran algunos mockups de datos de acuerdo a la estructura de la base de datos.
+```
+
+## Carpeta db
+
+```
+Carpeta que tiene el archivo index.js, este contiene las funciones necesarias para guardar informacion dentro del movil por medio de Sqlite.
+```
+
+## Carpeta features
+
+```
+Se encuentran tres archivos, authSlice.js, cartSlice.js, shopSlice, estos contienen los metodos necesarios para poder ser usados por react redux.
+```
+
+## Carpeta global
+
+```
+Contiene el archivo colors.js este contiene las rutas de los colores y fuentes
+```
+
+## Carpeta navigation
+
+```
+Esta carpeta tiene los componentes necesarios de navegacion, se encuentra el componente de navegacion de autenticacion, de carrito, navegacion principal, de ordenes, de perfil, de shopnavigator y tabnavigator.
+```
+
 # Screens
 
 ## Screen BookDetail
@@ -260,4 +402,23 @@ Métodos
 
 Estilos
 El componente Signup utiliza estilos para dar formato a los elementos de la pantalla de registro, incluyendo los campos de entrada, botones y enlaces de navegación.
+
+```
+
+## carpeta services
+
+```
+esta contiene las peticiones querys a la base de datos, para obtener los libros, generos y la autenticacion.
+```
+
+## carpeta store
+
+```
+Integra los componentes que estan en la carpeta features, formando los reduces generales de la aplicaicon y poder ser llamados desde otros componentes.
+```
+
+## carpeta services
+
+```
+dentro se encuentra el archivo signupSchema.js, este contiene las validaciones  de campos del formulario de registro.
 ```
